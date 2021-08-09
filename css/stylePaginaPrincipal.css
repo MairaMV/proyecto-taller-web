@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.ui-selectmenu-open {z-index:9999 !important;}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+body{
+    background: url('../img/fondo.jpg');
+    background-attachment: fixed;
+}
+
+hr{
+    border: #333 1px solid;
+}
+
+#global{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
+#cabecera{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#logo{
+    font-family: Verdana, Arial;
+    font-size: 15px;
+    color:#CA3413;
+    text-align: center;
+    padding-left: 15px;
+}
+
+.selectMenu{
+   padding-left: 600px;
+   font-size: 15px;
+}
+
+nav{
+    display: block;
+    font-family: Helvetica, Arial;
+}
+
+nav label{
+    display: inline-block;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav input{
+    width: 700px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#tituloNav input{
+    margin-left: 200px;
+}
+
+#busquedaNav input{
+    margin-left: 69px;
+}
+
+#buscar{
+    width: 70px;
+    height: 28px;
+    margin-left: 20px;
+}
+
+#buscarMas{
+    width: 70px;
+    height: 28px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#contenido{
+    display: block;
+    font-family: Helvetica, Arial;
+    margin: auto;
+}   
+
+.resultadoGrilla{
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 90%; 
+	height: 12em; 
+	margin-left: 5em; 
+}
+
+.resultadoGrilla li{
+	margin: 3px 3px 3px 3px; 
+	padding: 1px; 
+	float: left; 
+}
+
+.acordiones{
+	text-transform:uppercase;
+}
+
+.resultadoGrillaAcordion{
+    list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 90%; 
+	height: 12em; 
+	margin-left: 3em; 
+}
+
+.resultadoGrillaAcordion li{
+	margin: 3px 3px 3px 3px; 
+	padding: 1px; 
+	float: left;
+}
+
+nav input[type=radio]{
+    display: inline;
+    margin-left: 25px;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+footer{
+    font-family: Helvetica, Arial;
+    color: white;
+    height: 50px;
+    background: rgba(51,51,51,0.70);
+    margin: 0px auto;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    line-height: 47px;
+}
+
+footer ul{
+    line-height: 46px;
+    margin-left: 315px;
+}
+
+footer ul li{
+    line-height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer ul li:hover{
+    background:#CA3413;
+}

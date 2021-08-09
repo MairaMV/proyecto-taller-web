@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background: url('../img/fondo.jpg');
+    background-attachment: fixed;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+#global{
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+}
+
+#logo{
+    font-family: Verdana, Arial;
+    font-size: 20px;
+    letter-spacing: 4px;
+    background:#CA3413;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    float: left;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#logo h2{
+    display: inline-block;
+    font-size: 10px;
+}
+
+
+#menu{
+    font-family: Helvetica, Arial;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#menu ul{
+    line-height: 46px;
+}
+
+#menu ul li{
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+#menu ul li:hover{
+    background:#CA3413;
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#contenido{
+    display: block;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+#contenido form h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#contenido label{
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contenido input[type="text"],
+                [type="password"],
+                [type="email"],
+                [type="url"]{
+    width: 400px;
+    height: 25px;
+    margin: 20px 20px 20px 110px;
+}
+
+#contenido input[type="tel"]{
+    width: 400px;
+    height: 25px;
+    margin: 20px 20px 20px 30px;
+}
+
+#contenido #pais{
+    width: 400px;
+    height: 25px;
+    margin: 20px 20px 20px 140px;
+}
+
+#contenido #provincia{
+    width: 400px;
+    height: 25px;
+    margin: 20px 20px 20px 105px;
+}
+
+#contenido #ciudad{
+    width: 400px;
+    height: 25px;
+    margin: 20px 20px 20px 120px;
+}
+
+#contenido #calle{
+    width: 400px;
+    height: 25px;
+    margin: 20px 20px 20px 135px;
+}
+
+#contenido #altura{
+    width: 400px;
+    height: 25px;
+    margin: 20px 20px 20px 65px;
+}
+
+.coordenadas{
+    width: 100px;
+    height: 25px;
+    margin: 20px 20px 20px 80px; 
+}
+
+#contenido #password1{
+    margin-left: 77px;
+}
+
+#contenido #password2{
+    margin-left: 22px;
+}
+
+#contenido #fecha-nacimiento{
+    margin: 20px 20px 20px 23px;
+}
+
+#contenido #paginaWeb{
+    margin: 20px 20px 20px 80px;
+}
+
+#contenido p{
+    margin-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#contenido #genero{
+    display: inline;
+    padding-right: 105px;
+}
+
+.radio{
+    margin-right: 70px;
+}
+
+aside{
+    position: fixed;
+    margin-left: 705px;
+    margin-right: 400px;
+}
+
+#barra-lateral{
+    font-family: Helvetica, Arial;
+    width: 25%;
+    float: right;
+}
+
+#barra-lateral img{
+    width: 100%;
+}
+
+#barra-lateral p{
+    font-size: 10px;
+}
+
+.boton{
+    display: block;
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    text-align: center;
+    background: #CA3413;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+    width: 600px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+footer{
+    font-family: Helvetica, Arial;
+    color: white;
+    height: 50px;
+    background: rgba(51,51,51,0.70);
+    margin: 0px auto;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    line-height: 47px;
+}
+
+footer ul{
+    line-height: 46px;
+    margin-left: 315px;
+}
+
+footer ul li{
+    line-height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+footer ul li:hover{
+    background:#CA3413;
+}
+
+footer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
